@@ -25,6 +25,8 @@ You can use either the keyboard or the mouse:
 - Click the top half of the game window — Jump
 - Click the bottom half of the game window — Crouch
 
+<img src="PyGame_T-rex.gif">
+
 ⸻
 
 🧠 Features
