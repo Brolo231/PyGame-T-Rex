@@ -1,0 +1,40 @@
+import pygame
+# CONSTANTS / SETTINGS
+
+# Game window
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 500
+
+# BUTTONS
+BUTTON_WIDTH = 100
+BUTTON_HEIGHT = 50
+
+# Colours
+WHITE = (255,255,255)
+BLACK = (0,0,0)
+GREY = (45,45,45)
+LIGHT_GREY = (25,25,25)
+
+# Player
+PLAYER_SIZE = 75
+PLAYER_X_CORD = PLAYER_SIZE
+
+# Environment
+FLOOR = SCREEN_HEIGHT - PLAYER_SIZE*2
+# Objects
+TREE_WIDTH = 25
+TREE_HEIGHT = 50
+
+BIRD_WIDTH = 75
+BIRD_HEIGHT = 25
+
+# Actions
+JUMP_HEIGHT = 200
+SLOW_DOWN_HEIGHT = 75
+
+# GAME STATES
+# "menu" / "running"
+game_state = "menu"
+restart = False
+counter = 0
+high_score = 0
